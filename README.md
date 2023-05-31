@@ -15,7 +15,7 @@ For a transparent usage:
   "imports": {
     "preact":  "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/cg":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-cg@1.0.2/mod.ts",
+    "react-icons/cg":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-cg@1.0.3/mod.ts",
     "react-icons/cg/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-cg/ico/",
   }
 }
@@ -24,7 +24,7 @@ For a transparent usage:
 ## Direct import sample
 
 ```ts
-import { CgAbstract } from "https://deno.land/x/react_icons_cg@1.0.2/mod.ts"
+import { CgAbstract } from "https://deno.land/x/react_icons_cg@1.0.3/mod.ts"
 ```
 
 ## import_map import sample
