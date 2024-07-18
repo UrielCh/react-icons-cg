@@ -42,5 +42,5 @@ import { CgAbstract } from "react-icons/cg/CgAbstract"
 or using default export
 
 ```ts
-import CgAbstract from "react-icons/cg/CgAbstract.ts"
+import CgAbstract from "react-icons/cg/CgAbstract"
 ```
