@@ -1,4 +1,6 @@
-# css.gg icons for deno / Preact
+# css.gg icons for preact
+
+[![JSR](https://jsr.io/badges/@preact-icons/cg)](https://jsr.io/@preact-icons/cg)
 
 **License** [MIT](https://opensource.org/licenses/MIT)
 
@@ -13,10 +15,12 @@ For a transparent usage:
 ```json
 {
   "imports": {
-    "preact":  "https://esm.sh/preact@10.22.1",
-    "preact/": "https://esm.sh/preact@10.22.1/",
-    "react-icons/cg":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-cg@1.0.10/mod.ts",
-    "react-icons/cg/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-cg@1.0.10/ico/",
+    "@preact-icons/common": "jsr:@preact-icons/common@^1.0.10",
+    "preact": "npm:preact@10.22.1",
+    "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+    "preact/hooks": "npm:preact@10.22.1/hooks",
+    "react-icons/cg": "jsr:@preact-icons/cg@^1.0.11/mod.ts",
+    "react-icons/cg/": "jsr:@preact-icons/cg@^1.0.11/ico/",
   }
 }
 ```
@@ -24,7 +28,7 @@ For a transparent usage:
 ## Import an icon without import_map by and afer loading all icons from the lib cg
 
 ```ts
-import { CgAbstract } from "https://deno.land/x/react_icons_cg@1.0.10/mod.ts"
+import { CgAbstract } from "jsr:preact-icons/cg@1.0.11/mod.ts"
 ```
 
 ## import_map import an icon from all icons

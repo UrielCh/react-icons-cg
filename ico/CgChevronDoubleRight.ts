@@ -1,6 +1,11 @@
-import { GenIcon, type IconBaseProps } from "../deps.ts";
+import { GenIcon } from "../deps.ts";
+import type { IconBaseProps, JSX, VNode } from "../deps.ts";
 
-export function CgChevronDoubleRight(props: IconBaseProps) {
+/**
+ * ChevronDoubleRight icon from css.gg
+ * @module
+ */
+export function CgChevronDoubleRight(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none"},child:[{tag:"path",attr:{d:"M5.63605 7.75735L7.05026 6.34314L12.7071 12L7.05029 17.6568L5.63608 16.2426L9.87869 12L5.63605 7.75735Z",fill:"currentColor"}},{tag:"path",attr:{d:"M12.7071 6.34314L11.2929 7.75735L15.5356 12L11.2929 16.2426L12.7072 17.6568L18.364 12L12.7071 6.34314Z",fill:"currentColor"},child:[]}]})(props);
 }
 export default CgChevronDoubleRight;
