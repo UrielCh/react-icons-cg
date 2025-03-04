@@ -2,7 +2,7 @@
   "lock": false,
   "name": "@preact-icons/cg",
   "license": "MIT",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "exports": {
     ".": "./mod.ts",
     "./CgAbstract": "./ico/CgAbstract.ts",
